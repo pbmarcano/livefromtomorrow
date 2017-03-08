@@ -17,7 +17,7 @@ title: Live! from Tomorrow
 email: your-email@domain.com
 description: > # this means to ignore newlines until "baseurl:"
   Live! From Tomorrow is 'Letterman-meets-Shark Tank', created by the leaders of Startup NEXT NYC (acquired by Techstars).
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/livefromtomorrow" # the subpath of your site, e.g. /blog
 url: "http://livefromtomorrow.tv/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username:
 github_username:
