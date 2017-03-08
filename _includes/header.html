@@ -1,6 +1,10 @@
 <!-- Header -->
+  {% if page.url == "/" %}
   <header id="header" class="alt">
-    <h1><a href="index.html">{{ site.title }}</a></h1>
+  {% else %}
+  <header id="header">
+  {% endif %}
+    <h1><a href="/">{{ site.title }}</a></h1>
     <nav>
       <a href="#menu">Menu</a>
     </nav>
